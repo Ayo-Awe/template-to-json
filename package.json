@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "commander": "^9.4.1",
+    "css": "^3.0.0",
+    "handlebars": "^4.7.7",
+    "lodash": "^4.17.21",
+    "prettier": "^2.8.1",
+    "puppeteer": "^19.4.1"
+  },
+  "name": "hng-process-certificates-on-the-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "gen": "node ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

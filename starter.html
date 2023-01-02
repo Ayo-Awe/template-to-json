@@ -1,0 +1,74 @@
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Enter your google font url here -->
+    <link rel="stylesheet" href="your google font url" />
+
+    <style>
+      /* Default Styles Do Not Touch */
+      #bg {
+        height: 100%;
+      }
+
+      html,
+      body {
+        margin: 0;
+        width: fit-content;
+      }
+
+      .container {
+        position: relative;
+        height: 720px;
+        line-height: normal;
+        width: fit-content;
+      }
+
+      h2 {
+        margin: 0;
+      }
+
+      /* Add your styles from here */
+
+      /* Query selectors for text should begin with 'text-' and should target ids not classes */
+
+      /* #text-3 {
+        position: absolute;
+        top: 17.351%;
+        left: 8.35%;
+        font-size: 3em;
+        font-family: "Poppins";
+        font-weight: 700;
+      } */
+
+      /* Query selectors for elements should begin with 'element-' and should target ids not classes */
+
+      /* #element-1 {
+        position: absolute;
+        top: 87.5%;
+        left: 8.35%;
+        width: 10%;
+        height: 10%;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Enter the link to your background image -->
+      <img src="your image link" id="bg" />
+
+      <!-- Add Texts  -->
+      <h2 id="text-8">Lorem Ipsum has been the industry.</h2>
+
+      <!-- Add Texts that are attributes   -->
+      <h2 id="text-10" data-attribute="date">{{date}}</h2>
+
+      <!-- Add elements  -->
+      <img src="https://somesource" alt="" id="#element-1" />
+
+      <!-- Add elements that would be replaced by the logo  -->
+      <img src="https://somesource" alt="" id="#element-1" data-logo="true" />
+    </div>
+  </body>
+</html>
