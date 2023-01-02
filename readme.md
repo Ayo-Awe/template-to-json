@@ -74,7 +74,7 @@ Usage: node index parse [options] <filename>
 Parse a html file to a json certificate template
 
 Arguments:
-filename path to html file
+<filename> path to html file
 
 Options:
 -o, --output <output> Name of output json file (default: "output.json")
@@ -101,7 +101,7 @@ Usage: node index preview [options] <filename>
 Generates a preview of the json certificate template
 
 Arguments:
-filename path to json file
+<filename> path to json file
 
 Options:
 -o, --output <output> Name of output pdf file (default: "output.pdf")
